@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+.header{
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo{
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+margin-top: 29px;
+margin-bottom: 29px;
+margin-left: 80px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    margin-right: 80px;
+}
+.menu__link{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.menu__link:hover{
+    border-bottom: 2px solid rgba(158, 71, 54, 0.882);
+    border-top: 2px solid rgba(158, 71, 54, 0.882);
+}
+.intro{
+    background: url(https://source.unsplash.com/vSuQJKZkt4U/1920x1080) no-repeat center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-size: cover;
+}
+.intro__text{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 89px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+hr{
+width: 80px;
+height: 10px;
+left: 687px;
+top: 362px;
+background: #817070;
+}
+.story__intro{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+margin-top: 60px;
+}
+.story__imagetext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+}
+.story__image{
+    height: 400px;
+}
+.story__text{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+margin-left: 40px;
+}
+.blog{
+    background: #EFEFEF;
+}
+.blog__intro{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+padding-top: 60px;
+}
+.blog_boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog__box{
+    height: 475px;
+    width: 365px;
+    background: #FFFFFF;
+    margin: 70px;
+}
+.box__image{
+    display: block;
+    margin: 0 auto;
+    width: 325px;
+    height: 216px;
+}
+.box__name{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #000000;
+margin: 20px;
+}
+.box__text{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+margin: 24px 46px 20px 40px;
+}
+.subscribe{
+    background: #817070;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+height: 300px;
+}
+.subscribe__text{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.email{
+    width: 300px;
+height: 55px;
+background: #817070;
+border: 3px solid #FFFFFF;
+}
+input::placeholder{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+}
+.submit{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+text-transform: uppercase;
+color: #817070;
+padding: 13px 34px;
+cursor: pointer;
+}
+.copyright{
+    height: 72px;
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+padding-top: 28px;
+}
