@@ -1,2 +1,2 @@
-https://morkoff412.github.io/test1/master/coffeehouse
+https://morkoff412.github.io/test1/master
 
